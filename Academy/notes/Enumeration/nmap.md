@@ -84,6 +84,17 @@ sudo nmap --script <category> <target>  # Specific scripts category
 sudo nmap --script <script-name>, <script-name>, ...  # Defined script(s)
 ```
 
+All NSE scripts are located at /usr/share/nmap/scripts/. 
+We can update this list by running: 
+```zsh
+sudo nmap --script-updatedb
+```
+
+we can also find them with the following command: 
+```zsh
+find / -type f -name WHAT_WE_LOOKING_FOR* 2>/dev/null | grep scripts
+```
+
 ### Performance
 As the networks we scan become bigger, performance becomes an important factor to consider. We can use certain flags to optimize nmap for our network needs. Some of these are: 
 - Which frequency?: --min-parrallelism {number}

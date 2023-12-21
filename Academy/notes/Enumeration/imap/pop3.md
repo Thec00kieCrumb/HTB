@@ -22,6 +22,7 @@
 | 1 CLOSE | Removes all messages with the Deleted flag set. |
 | 1 LOGOUT | Closes the connection with the IMAP server. |
 <br>
+
 ### POP3 Commands 
 | Command | Description |
 | ------- | ----------- |

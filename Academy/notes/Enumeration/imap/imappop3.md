@@ -40,9 +40,9 @@
 ### Cheatsheet
 | Command | Description |
 | ------- | ----------- |
-| curl -k 'imaps://<FQDN/IP>' --user <user>:<password> | Log in to the IMAPS service using cURL. |
-| openssl s_client -connect <FQDN/IP>:imaps | Connect to the IMAPS service. |
-| openssl s_client -connect <FQDN/IP>:pop3s | Connect to the POP3s service. |
+| ```curl -k 'imaps://<FQDN/IP>' --user <user>:<password> ```| Log in to the IMAPS service using cURL. |
+| ```openssl s_client -connect <FQDN/IP>:imaps``` | Connect to the IMAPS service. |
+| ```openssl s_client -connect <FQDN/IP>:pop3s``` | Connect to the POP3s service. |
 
 ### Ressource
 using imap commands: https://tewarid.github.io/2011/05/10/access-imap-server-from-the-command-line-using-openssl.html
